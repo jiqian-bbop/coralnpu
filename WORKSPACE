@@ -34,7 +34,7 @@ http_archive(
     name = "rules_cc",
     sha256 = "69ceb454b9b29e0aba7da81c72e96ecafd81d2044be883b46398b1c77ca7fff9",
     strip_prefix = "rules_cc-0.2.9",
-    url = "https://github.com/bazelbuild/rules_cc/releases/download/0.2.9/rules_cc-0.2.9.tar.gz",
+    url = "file:///home/zzy/projects/coralnpu/rules_cc/rules_cc-0.2.9.tar.gz",
 )
 
 load("@rules_cc//cc:repositories.bzl", "rules_cc_dependencies", "rules_cc_toolchains")
